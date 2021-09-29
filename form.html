@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student registration</h1>
+
+    <form action="register.php" method="POST">
+
+<label for="name">Name</label>
+<input type="text" name="stu name" id="name">
+<br><br>
+<label for="email">Email</label>
+<input type="Email" name="stu email" id="email" value="saisailinhtet09@gmail.com" readonly>
+<br><br>
+<label for="password">Password</label>
+<input type="password" name="stu password" id="password" >
+<br><br>
+<label for="Phone">Ph no</label>
+<input type="number" name="stu number" id="Phone">
+<br><br>
+<label for="Passport">Passport</label>
+<input type="file" accept="image/*" name="stu passport" id="passport">
+<br><br>
+<label for="year">years</label>
+<select name="stu year" id="year">
+<option value="0">choose year</option>
+<option value="1">1st year</option>
+<option value="2">2nd year</option>
+<option value="3">3rd year</option>
+</select>
+<br><br>
+<label for="">Gender</label><br>
+<input type="radio" name="gender" id="male"><label for="male">male</label>
+<input type="radio" name="gender" id="female"><label for="female">female</label>
+<br><br>
+<label for="hobby">Hobby</label>
+<input type="checkbox" name="reading" id="reading"><label for="reading">reading</label>
+<input type="checkbox" name="travelling" id="travelling"><label for="travelling">travellling</label>
+<input type="checkbox" name="youtuber" id="youtuber"><label for="youtuber">youtuber</label>
+<br><br>
+<label for="address">Address</label>
+<textarea name="stu address" id="address" cols="30" rows="10"></textarea>
+
+<br><br>
+<button type="submit">Submit</button>
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
