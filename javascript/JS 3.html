@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 3</title>
+</head>
+<body>
+    <script>
+        //function
+        function funName(){
+            document.write("hello function<br>")
+        } 
+        funName();
+        function number(number1,number2){
+            document.write(number1+number2+"<br>")
+        }
+        number(1,3);
+        function adding(num1,num2){
+            document.write(num1+num2)
+        }
+        let firstnum = prompt("Enter first number");
+        let secondnum = prompt("Enter second number");
+        adding(Number(firstnum),Number(secondnum));
+
+        let laptop = {brand:'apple', type:'M1', price:'410k'}
+        console.log(laptop);
+        console.log(laptop.brand);
+    </script>
+</body>
+</html>
