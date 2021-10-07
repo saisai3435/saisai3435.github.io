@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date object</title>
+</head>
+<body>
+    <div id ="clock"></div>
+
+    <script>
+        let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+        console.log(months);
+        let now = new Date();
+        console.log(months[now.getMonth()]);
+
+        function timefunc(){
+        let nowTime = new Date();
+        let Hour = nowTime.getHours();
+        let Min = nowTime.getMinutes();
+        let Sec = nowTime.getSeconds();
+        document.getElementById("clock").innerHTML = `${Hour}:${Min}:${Sec}`;
+
+        }
+
+        setInterval('timefunc()',1000);
+
+
+
+
+
+    </script>
+</body>
+</html>

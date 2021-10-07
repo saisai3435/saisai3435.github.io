@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="flutter">Flutter</label>
+        <input type="Number" name="" id="flutter"><br><br>
+        <label for="java">java</label>
+        <input type="Number" name="" id="java"><br><br>
+        <label for="javascript">JavaScript</label>
+        <input type="Number" name="" id="javascript"><br><br>
+        <button type="button" onclick="exam_mark()">Calculate mark</button>
+    </form>
+    <div id="Exam_result"></div>
+
+    <script>
+    function exam_mark(){
+        let flutter = document.getElementById("flutter").value;
+        let java = document.getElementById("java").value;
+        let js = document.getElementById("javascript").value;
+
+        if (flutter >= 80 || java >= 80 || js >= 80){
+            let D = document.getElementById("Exam_result");
+            console.log(D);
+            D.innerHTML = "<h1>This student got distinction!</h1>"
+        }else if (flutter >= 50 && java >= 50 && js >= 50){
+            let pass = document.getElementById("Exam_result");
+            console.log(pass);
+            pass.innerHTML = "<h1>This student passed!</h1>";
+        }
+         else{
+            let fail = document.getElementById("Exam_result");
+            console.log(fail);
+            fail.innerHTML = "<H1>This student failed!</h1>";
+        }
+        
+    }
+
+
+    </script>
+
+</body>
+</html>
