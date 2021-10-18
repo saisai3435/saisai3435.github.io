@@ -1,0 +1,185 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+/*universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*tag/element selector*/
+h4{
+    /*color: brown; text */
+   /* color:#f00 ; short hex*/
+  /* color: #ff0000; hex */
+ color: rgb(255,0,0);
+ word-spacing: 20px;
+ line-height: 50px;
+ text-indent: 40px;
+}
+/*attribute selector*/
+a[title="google"]{
+    text-decoration: none;
+    color: saddlebrown;
+}
+/*id selector*/
+p#idselector{
+    color: green;
+    letter-spacing: 20px;
+    text-align: justify;
+    text-indent: 50px;
+}
+/*class selector*/
+p.classselector{
+    color: greenyellow;
+    line-height:30px ;
+    word-spacing: 40px;
+    text-indent: 50px;
+}
+/*descendent selector*/
+p a{
+    color: red;
+}
+/*child selector*/
+p.child>a{
+    color: seagreen;
+}
+/*pseudo selector*/
+a:link{
+    color: blue;
+}
+a:hover{
+    color: chocolate;
+}
+a:active{
+    color: cornsilk;
+}
+a:visited{
+    color: darkmagenta;
+}
+div:target{
+    color: darkorange;
+    border: 1px solid black;
+}
+/*stud reg*/
+form{
+    width: 80%;
+    margin: auto;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    width: 100%;
+    height: 40px;
+    outline: none;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus{
+    border: 3px solid #555;
+}
+#dob{
+    width: 90%;
+}
+div#dob select{
+    width: 30%;
+    height: 40px;
+    outline: none;
+}
+#ad{
+    width: 100%;
+    height:100px ;
+    border-radius: 4px;
+}
+input[type="radio"]:checked+label{
+    color:cornsilk;
+    font-weight: bold;
+}
+input[type="checkbox"]:enabled+label{
+    color: aqua;
+    font-style: italic;
+}
+input[type="checkbox"]:checked+label{
+    color: cornflowerblue;
+    font-style: normal;
+}
+input[type="checkbox"]:disabled+label{
+    color: cornsilk;
+}
+#fieldset p{
+    text-indent: 20px;
+}
+ul li{
+    margin-left: 50px;
+    line-height: 40px;
+}
+li:first-child{
+    background-color: cornsilk;
+    width: 80%;
+}
+li:last-child{
+    background-color: crimson;
+    width: 80%;
+}
+li:nth-child(4){
+    background-color: darkcyan;
+    width: 80%;
+}
+p:empty{
+    background-color: darkslategray;
+    height: 20px;
+}
+.ty{
+    text-align: center;
+}
+/*border lessons*/
+.border1{
+    border: 1px dotted rebeccapurple;
+}
+.border2{
+    border-left:4px solid tomato;
+}
+.bs{
+    border-style: double;
+}
+.mix{
+    /*border-style: solid dashed ;*/
+    /*T B & L R*/
+   /* border-style:solid dotted double ;*|
+    /*T & L R & B*/
+    border-style: solid dotted dashed double;
+    /*clockwise direction*/
+}
+.bw{
+    border-width: 2px 6px 10px 15px;
+    border-style: solid;
+}
+.margin1{
+    margin: 15px;
+    border: 1px solid black;
+}
+.margin2{
+    margin: 10px 20px;
+    border: 1px solid red;
+}
+.margin3{
+    margin: 5px 15px 30px;
+    border: 1px solid yellow;
+}
+.margin4{
+    /*margin: 5px 1px 5px 40px*/
+    margin-left: 40px;
+    border: 1px solid black;
+}
+/*padding*/
+.padding{
+    border: 1px solid red;
+    padding-top: 50px;
+}
+/*layout*/
+.google{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
+}
+.block{
+    border: 1ps solid black;
+    width: 400px;
+    display: inline-block;
+}

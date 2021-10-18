@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom css</title>
+</head>
+<body>
+    <p id="p_tag">Hello Js</p><br><br>
+    <img src="download.png" alt="" id="image_tag">
+    <button type="button" onclick="Change()">Change</button>
+
+    <script>
+        function Change(){
+            let p_tag = document.getElementById("p_tag");
+            p_tag.style.backgroundColor = "red" ;
+            p_tag.style.fontSize = "50px" ;
+            p_tag.style.fontweight = "bold";
+
+            let img_tag = document.getElementById("image_tag");
+            img_tag.style.width = '300px';
+            img_tag.style.height = '300px';
+        }
+    </script>
+
+</body>
+</html>
