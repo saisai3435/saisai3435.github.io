@@ -183,3 +183,74 @@ p:empty{
     width: 400px;
     display: inline-block;
 }
+/*float*/
+.floatleft img{
+    width: 40%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.floatright img{
+    width: 40%;
+    float: right;
+}
+.grid1 div,.grid2 div,.grid3 div,.grid4 div,.grid5 div,.grid6 div{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid2{
+    grid-column-gap: 50px; ;
+}
+.grid3{
+    grid-row-gap: 50px;
+}
+.grid4{
+    grid-gap: 50px;
+}
+.addcolumns{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.addrows{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+/*position*/
+.relative_parent{
+    border: 1px solid red;
+    height: 1000px;
+    width: 500px;
+}
+.relative{
+    border: 1px solid yellow;
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.absolute_parent{
+    position: relative;
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+}
+.absolute{
+    border: 1px solid red;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 1000px;
+}
