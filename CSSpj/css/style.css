@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-color: #16191c;
+}
+.logo{
+    width: 110px;
+    height: 70px;
+    display: block;
+    margin-left: 30px;
+}
+.brand_name{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+}
+.nav_brand{
+    display: inline-block;
+}
+.background ul{
+    float: right;
+}
+.background ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 40px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.background ul li:hover{
+    color: gold;
+    transform: translate(4px,-5px);
+    transition-duration: 0.4s;
+}
+.Background_img{
+    background-image: url(../images/Background_img.jpg);
+    height: 620px;
+}
+.beerbar{
+    position: relative;
+    top: 190px;
+    left: 270px;
+    color: gold;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+.read{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    background-color:black;
+    color: white;
+    margin-left: 90px;
+}
+/*end background*/
+.grid{
+    display: grid;
+    grid-template-columns: 600px auto auto;
+}
+div.grid .grid_one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    text-align: left;
+    padding: 70px 50px 0px 90px;
+}
+.grid div{
+    border: 4px solid #16191c;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.perfect{
+    color: gold;
+}
+.read_more{
+    background-color: yellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+div.grid .grid_other{
+    padding: 20px 50px 30px 50px;
+}
+.boxshow img{
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: 1px solid black;
+    border-radius: 3px;
+    float: left;
+}
+.boxshow_text{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 85%;
+    text-align: justify;
+}
+.clear{
+    clear: both;
+}
+.beerbox img{
+    float: right;
+    margin-right: 80px;
+}
+.beerbox{
+    background-color: black;
+    height:  300px;
+}
+.beerbox_text h1,.beerbox_text p{
+    color: white;
+    width: 50%;
+    
+}
+.beerbox_text{
+    position: relative;
+    top: 70px;
+    left: 250px;
+    width: 60%;
+    text-align: justify;
+}
+.beerboxbtn{
+    background-color: black;
+    border: 1px solid gold;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    color: gold;
+}
+.white_background{
+    width: 35%;
+    margin-left: 90px;
+    margin-top:  60px;
+    float: left;
+}
+.white_background2{
+    position: relative;
+    top: 60px;
+    width: 80%;
+    left: 190px;
+    text-align: justify;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 60px;
+
+}
+.footer p{
+    display: inline-block;
+    color: white;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.footer a{
+    float: right;
+    margin-top: 38px;
+    margin-right: 50px;
+    color: gold;
+}
+.about img{
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-top:  150px;
+    margin-right: 100px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+.about{
+    background-color:#141413;
+    color: white;
+    height: 600px;
+    margin-bottom: -60px;    
+}
+.about_text{
+    width: 30%;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.contact{
+    background-color: #141413;
+    margin-bottom: -60px;
+    height: 600px;
+}
+.contact h1{
+    text-align: center;
+    color: gold;
+}
+.borderc{
+    width: 100px;
+    height: 7px;
+    background-color: gray;
+    margin: 40px auto;
+}
+.contact_text{
+    display: block;
+    margin: 40px auto;
+    width: 30%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.contact_text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact_text{
+    resize: none;
+    height: 100px;
+}
+.contact_btn{
+    margin-left: 680px;
+    background-color: black;
+    color: gold;
+    border: gold;
+    border-radius: 10px;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact_btn:hover{
+    background: gray;
+}
+#shop_background{
+    background-color: #141413;
+    margin-bottom: -60px;
+    padding-bottom: 60px;
+}
+.Our{
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+}
+#info{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    text-align: center;
+    color: white;
+    grid-column-gap: -10px;
+    grid-row-gap: 15px;
+    
+}
+#info img{
+    border-radius: 30px;    
+}
+.shop_img{
+    box-sizing: border-box;
+    box-shadow: 12px 10px 12px black;
+}
+.shop_desc button:hover{
+    box-shadow:none;
+    background-color: #34495e;
+}
+.shop_desc button{
+    padding: 10px;
+    margin: 15px;
+    background-color: black;
+    border: 1px solid gold;
+    border-radius: 10px;
+    color: gold;
+    cursor: pointer;
+    transition: 0.5s;
+}

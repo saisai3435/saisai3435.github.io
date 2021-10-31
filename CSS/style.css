@@ -254,3 +254,13 @@ p:empty{
     top: 50px;
     left: 1000px;
 }
+.online{
+    font-family: 'Oswald', sans-serif;
+}
+@font-face{
+    src:url(Festive/Festive-Regular.ttf);
+    font-family: Regular;
+}
+.offline{
+    font-family: Regular;
+}
